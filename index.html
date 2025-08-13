@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>25 + 5 Clock</title>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>25 + 5 Clock</h1>
+
+    <section class="length-controls">
+      <div class="control-group">
+        <h2 id="break-label">Break Length</h2>
+        <div class="controls">
+          <button id="break-decrement">−</button>
+          <span id="break-length">5</span>
+          <button id="break-increment">+</button>
+        </div>
+      </div>
+
+      <div class="control-group">
+        <h2 id="session-label">Session Length</h2>
+        <div class="controls">
+          <button id="session-decrement">−</button>
+          <span id="session-length">25</span>
+          <button id="session-increment">+</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="timer">
+      <div class="circle-container">
+        <svg>
+          <circle class="bg" cx="100" cy="100" r="90" />
+          <circle class="progress" cx="100" cy="100" r="90" />
+        </svg>
+        <div class="timer-text">
+          <h3 id="timer-label">Session</h3>
+          <p id="time-left">25:00</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="timer-controls">
+      <button id="start_stop">Start / Pause</button>
+      <button id="reset">Reset</button>
+    </div>
+
+    <audio id="beep" src="https://www.soundjay.com/button/beep-07.wav"></audio>
+  </main>
+
+  <footer class="footer">
+    <p>Author: Nolu Dlamini | Contact: <a href="mailto:nolublack@gmail.com">nolublack@gmail.com</a></p>
+  </footer>
+  
+  <script src="script.js" defer></script>
+  
+</body>
+</html>
+
+
+
