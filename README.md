@@ -2,6 +2,8 @@
 
 A simple, modern, and interactive **Pomodoro-style timer** that allows users to focus on work sessions (25 minutes) and take short breaks (5 minutes). Fully adjustable and built with **HTML, CSS, and JavaScript**.
 
+<img width="465" height="691" alt="Screenshot (21)" src="https://github.com/user-attachments/assets/5f86c89d-54b3-43f1-9aec-2424a9383343" />
+
 ## Features
 
 - Adjustable **session** and **break lengths** (1–60 minutes)
