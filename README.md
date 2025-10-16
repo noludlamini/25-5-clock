@@ -15,7 +15,7 @@ A simple, modern, and interactive **Pomodoro-style timer** that allows users to 
 
 ## Live Demo
 
-You can view the live version [here](https://noludlamini.github.io/25-5-clock/) 
+You can view the live version [here](https://noludlamini.github.io/25-5-clock/)
 
 ## How to Use
 
